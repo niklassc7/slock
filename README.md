@@ -7,7 +7,7 @@ Requirements
 ------------
 In order to build slock you need the Xlib header files.
 * Xlib headers
-* imlib2
+* imlib2-devel
 * libXinerama-devel
 
 
