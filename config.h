@@ -18,7 +18,7 @@ static const char * message = "Gesperrt.";
 static const char * text_color = "#ffffff";
 
 /* text size (must be a valid size) */
-static const char * font_name = "6x10";
+static const char * font_name = "6x12";
 
 /*Enable blur*/
 #define BLUR
