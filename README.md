@@ -34,3 +34,4 @@ Running slock
 Simply invoke the 'slock' command. To get out of it, enter your password.
 
 * `-m <message>` specify a message (optional)
+* `-f` List font names
