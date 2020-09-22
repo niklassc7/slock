@@ -8,12 +8,14 @@ Requirements
 In order to build slock you need the Xlib header files.
 * Xlib headers
 * imlib2
+* libXinerama-devel
 
 
 Applied patched
 ---------------
 
 * blur pixelated screen/
+* message
 
 
 Installation
@@ -30,3 +32,5 @@ Afterwards enter the following command to build and install slock
 Running slock
 -------------
 Simply invoke the 'slock' command. To get out of it, enter your password.
+
+* `-m <message>` specify a message (optional)
