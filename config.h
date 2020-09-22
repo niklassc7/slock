@@ -8,14 +8,15 @@ static const char *colorname[NUMCOLS] = {
 	[FAILED] = "#CC3333",   /* wrong password */
 };
 
-/* treat a cleared input like a wrong password (color) */
-static const int failonclear = 1;
-
 /*Enable blur*/
 #define BLUR
 /*Set blur radius*/
-static const int blurRadius=5;
-/*Enable Pixelation*/
-//#define PIXELATION
-/*Set pixelation radius*/
-static const int pixelSize=0;
+static const int blurRadius=7;
+
+// /*Enable Pixelation*/
+// #define PIXELATION
+// /*Set pixelation radius*/
+// static const int pixelSize=0;
+
+/* treat a cleared input like a wrong password (color) */
+static const int failonclear = 1;

@@ -1,11 +1,19 @@
-slock - simple screen locker
-============================
-simple screen locker utility for X.
+My build of slock - simple screen locker
+========================================
+simple screen locker utility for X. Forked from https://tools.suckless.org/slock/
 
 
 Requirements
 ------------
 In order to build slock you need the Xlib header files.
+* Xlib headers
+* imlib2
+
+
+Applied patched
+---------------
+
+* blur pixelated screen/
 
 
 Installation
