@@ -18,5 +18,10 @@ static const int blurRadius=7;
 // /*Set pixelation radius*/
 // static const int pixelSize=0;
 
+/*Enable Pixelation*/
+#define PIXELATION
+/*Set pixelation radius*/
+static const int pixelSize=10;
+
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
